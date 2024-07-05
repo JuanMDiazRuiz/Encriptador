@@ -1,0 +1,131 @@
+/** pagina inicio **/
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #e5e5e5;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    margin: 0px 40px 0px 0px;
+    justify-content: space-between;
+}
+
+/** asaide **/
+.respuesta{
+    background-color: white;
+    width: 400px;
+    height: 650px;
+    border-radius: 32px;
+    
+}
+
+.respuesta__muñeco{
+   margin: 100px 32px 0 32px;
+}
+
+.respuesta__mensaje1{
+    font-size: 24px;
+    text-align: center;
+    margin: 32px 0 16px 0;
+    color: #919297;
+}
+
+.respuesta__mensaje2{
+    font-size: 16px;
+    text-align: center;
+    color: #adaeb3;
+}
+
+/** article **/
+.ingreso{
+    background-color: none;
+    width: 1000px;
+    height: 650px;
+    border-radius: 32px;
+    margin: 0px 0 0 40px;
+}
+
+.ingreso__logo{
+    margin: 0px 0px 80px 0px;
+}
+
+.ingreso__cuadro{
+    width: 577px;
+    height: 48px;
+    margin: 0px 0px 350px 75px;
+    font-size: 32px;
+    color: darkblue;
+    background: transparent;
+    border: 0px;
+}
+
+::placeholder {
+    color: darkblue;
+    opacity: 1;
+}
+
+.ingreso__mensaje{
+    margin: 25px 0px 16px 200px;
+    font-size: 12px;
+    color: gray;
+    display: flex;
+    gap: 8px;
+}
+
+.ingreso__boton1{
+    background-color: darkblue;
+    margin: 0px 0px 0px 200px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 16px;
+    color: white;
+}
+
+.ingreso__boton2{
+    background-color: lightblue;
+    margin: 0px 0px 0px 24px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 16px;
+    color: darkblue;
+    border: 1px solid darkblue;  
+}
+
+/** segunda pagina **/
+
+.respuesta__boton3{
+    background-color: white;
+    margin: 548px 36px 0px 36px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 16px;
+    color: darkblue;
+    border: 1px solid darkblue;  
+}
+
+.ingreso__mensaje__page2{
+    margin: 385px 0px 16px 200px;
+    font-size: 12px;
+    color: gray;
+    display: flex;
+    gap: 8px;
+}
+
+.respuesta__boton{
+    background-color: #e5e5e5;
+    margin: 0px 0px 0px 24px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 16px;
+    color: darkblue;
+    border: 1px solid darkblue;  
+}

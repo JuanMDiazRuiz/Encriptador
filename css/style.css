@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #e5e5e5;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    margin: 0px 40px 0px 0px;
+    justify-content: space-between;  
+}
+
+/** article **/
+.contenedor{
+    background-color: none;
+    width: 1000px;
+    height: auto;
+    border-radius: 32px;
+    margin: 40px 0px 0px 40px;
+}
+
+.contenedor__logo{
+    width: 120px;
+    height: 48px;
+    margin: 0px 0px 80px 0px;
+}
+    
+.contenedor__texto{
+    width: 577px;
+    height: auto;
+    margin: 0px 0px 83px 200px;
+    font-size: 2rem;
+    font-family: "Inter", sans-serif;
+    color: darkblue;
+    background: transparent;
+    border: 0px;
+    outline: none;
+    resize: none;
+    display: block;
+    overflow: hidden; 
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: darkblue;
+    opacity: 1;
+}
+
+.contenedor__mensaje{
+    margin: 0px 0px 16px 200px;
+    font-size: 0.75rem;
+    font-family: "Inter", sans-serif;
+    color: gray;
+    display: flex;
+    gap: 8px;
+}
+
+.contenedor__boton{
+    width: 680px;
+    height: 67px;
+    margin: 0px 0px 32px 200px;
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 24px;  
+}
+
+.contenedor__boton__encriptar{
+    background-color: darkblue;
+    margin: 0px 0px 0px 0px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+.contenedor__boton__encriptar:hover{ 
+    background-color: #e5e5e5;
+    color: darkblue;
+}
+
+.contenedor__boton__desencriptar{
+    background-color: #e5e5e5;
+    margin: 0px 0px 0px 0px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    color: darkblue;
+    border: 1px solid darkblue;
+}
+
+.contenedor__boton__desencriptar:hover{
+    background-color: darkblue;
+    color: #e5e5e5;
+}
+
+/** asaide **/
+.respuesta{
+    background-color: white;
+    width: 400px;
+    height: 650px;
+    border-radius: 32px;
+    margin: 40px 0px 40px 0px; 
+}
+
+.respuesta__imagen{
+    width: 336px;
+    height: 304px;
+    margin: 120px 32px 0 32px;
+}
+
+.respuesta__mensaje__grande{
+    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin: 32px 0 16px 0;
+    color: #919297;
+}
+
+.respuesta__mensaje__pequeno{
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: #adaeb3;
+}
+
+
+
+/* elementos ocultos*/
+
+.respuesta__texto{
+    width: 370px;
+    height: auto;
+    margin: 10px 0px 0px 15px;
+    font-size: 1.375rem;
+    font-family: "Inter", sans-serif;
+    color: darkblue;
+    background: transparent;
+    outline: none;
+    border: 0px;
+    resize: none;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.respuesta__texto:read-only {
+    cursor: not-allowed;
+}
+
+.respuesta__mensaje__grande__oculto{
+    font-size: 1.5rem;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin: 32px 0 16px 0;
+    color: #919297;
+    display: none;
+}
+
+.respuesta__mensaje__pequeno__oculto{
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    color: #adaeb3;
+    display: none;
+}
+
+.respuesta__boton__copia{
+    background-color: white;
+    margin: 277px 36px 32px 36px;
+    width: 328px;
+    height: 67px;
+    border-radius: 24px;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    color: darkblue;
+    border: 1px solid darkblue;  
+}
+
+.respuesta__boton__copia:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+/*Responsive para tablet width max (768)*/
+
+@media (max-width: 768px){
+    
+    body {
+        flex-direction: column;
+    }
+
+    .contenedor{
+        width: 688px;
+        height: auto;
+        margin: 40px 40px 0px 40px;
+    }
+
+    .contenedor__logo{
+        margin: 73.42px 0px 116px -40px;
+    }
+
+    .contenedor__texto{
+        width: 688px;
+        margin: 0px 40px 548px 0px; 
+    }
+
+    .contenedor__mensaje{
+        margin: 0px 0px 16px 0px;
+    }
+
+    .contenedor__boton{
+        width: 688px;
+        margin: 0px 40px 24px 0px; 
+    }
+
+    .contenedor__boton__encriptar{
+        width: 332px;
+    }
+    
+    .contenedor__boton__desencriptar{
+        width: 332px;
+    }
+
+    .respuesta{
+        width: 688px;
+        height: auto;
+        margin: 14px 40px 40px 40px;
+    }
+
+    .respuesta__imagen{
+        display: none;
+    }
+
+    .respuesta__mensaje__grande{
+        display:none;
+    }
+
+    .respuesta__mensaje__pequeno{
+        display: none;
+    }
+
+    .respuesta__mensaje__grande__oculto{
+        display: block;
+    }
+
+    .respuesta__mensaje__pequeno__oculto{
+        display: block;
+        margin: 16px 0px 32px 0px;
+    }
+
+    .respuesta__boton__copia{
+        margin: 32px 32px 32px 32px;
+        width: 624px;
+    }
+
+    .respuesta__texto{
+        width: 624px;
+        margin: 32px 32px 0px 32px;
+    }
+
+}
+
+/*Responsive para celular width max (375)*/
+
+@media (max-width: 375px){
+    
+    body {
+        flex-direction: column;
+    }
+
+    .contenedor{
+        width: 343px;
+        height: auto;
+        margin: 16px 16px 0px 16px;
+    }
+
+    .contenedor__logo{
+        margin: 23.97px 0px 80px -40px;
+    }
+
+    .contenedor__texto{
+        width: 343px;
+        margin: 0px 0px 251px 0px;
+        font-size: 1rem;
+    }
+
+    .contenedor__mensaje{
+        margin: 0px 0px 16px 0px;
+    }
+
+    .contenedor__boton{
+        width: 343px;
+        margin: 0px 16px 24px 0px;
+        display: block;
+    }
+
+    .contenedor__boton__encriptar{
+        width: 343px;
+        margin: 0px 16px 24px 0px;
+    }
+    
+    .contenedor__boton__desencriptar{
+        width: 343px;
+    }
+
+    .respuesta{
+        width: 343px;
+        height: auto;
+        margin: 100px 16px 40px 16px;
+    }
+
+    .respuesta__imagen{
+        display: none;
+    }
+
+    .respuesta__boton__copia{
+        margin: 32px 16px 32px 32px;
+        width: 279px;
+    }
+
+    .respuesta__texto{
+        width: 279px;
+        height: auto;
+        margin: 32px 32px 0px 32px;
+        overflow: hidden;
+    }
+
+}

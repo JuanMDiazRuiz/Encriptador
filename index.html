@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador De Textos</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <article class="contenedor">
+        <img class="contenedor__logo" src="img/Logo.png" alt="Logo de Alura">
+        <textarea  id="contenedorTexto" class="contenedor__texto" cols="30" rows="8" type="text" placeholder="Ingrese el texto aqui"></textarea>
+        <p class="contenedor__mensaje"> <img src="img/bi_exclamation-circle-fill.png" alt=""> Solo letras minusculas y sin acento</p>
+        <div class="contenedor__boton">
+            <button onclick="encriptarMensaje();" class="contenedor__boton__encriptar" type="button" >Encriptar</button>
+            <button onclick="desencriptarMensaje();" class="contenedor__boton__desencriptar" type="button" >Desencriptar</button>
+        </div>
+    </article>
+    <aside class="respuesta">
+        <img id="imagen" class="respuesta__imagen" src="img/imagen.png" alt="Joven buscando con una lupa">
+        <textarea id="respuestaTexto" class="respuesta__texto" cols="30" rows="10" type="text" readonly></textarea>
+        <div id="parrafo">
+            <p class="respuesta__mensaje__grande"><b>Ningún mensaje fue <br>encontrado</b></p>
+            <p class="respuesta__mensaje__pequeno">Ingresa el texto que desees encriptar o <br>desencriptar.</p>
+            <p class="respuesta__mensaje__grande__oculto">Ningún mensaje fue encontrado</p>
+            <p class="respuesta__mensaje__pequeno__oculto">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+        <button onclick="copiar();" id="botonCopiar" class="respuesta__boton__copia">Copiar</button>
+
+    </aside>
+
+    
+</body>
+<script src="app.js"></script>
+
+</html>

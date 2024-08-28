@@ -15,6 +15,11 @@ body{
     justify-content: space-between;  
 }
 
+.principal{
+    display: flex;
+    gap: 40px;
+}
+
 /** article **/
 .contenedor{
     background-color: none;

@@ -70,7 +70,7 @@ body{
 .contenedor__boton{
     width: 680px;
     height: 67px;
-    margin: 0px 0px 32px 200px;
+    padding: 0px 0px 32px 200px;
     display: grid;
     grid-auto-flow: column;
     justify-content: center;

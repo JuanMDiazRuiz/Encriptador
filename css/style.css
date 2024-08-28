@@ -59,7 +59,7 @@ body{
 }
 
 .contenedor__mensaje{
-    margin: 0px 0px 16px 200px;
+    padding: 0px 0px 16px 200px;
     font-size: 0.75rem;
     font-family: "Inter", sans-serif;
     color: gray;

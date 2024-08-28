@@ -24,7 +24,7 @@ body{
 
 /** article **/
 .contenedor{
-    background-color: none;
+    background-color: yellow;
     width: 1000px;
     height: auto;
     border-radius: 32px;

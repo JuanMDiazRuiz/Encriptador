@@ -205,14 +205,14 @@ body{
     
     body{
         width: 768px;
-        height: 1174px;
+        height: auto; /*1174px*/
     }
 
     .principal {
         flex-direction: column;
         width: 688px;
-        height: 1060px;
-        margin: 73.42px 40px 0px 40px;
+        height: auto; /*1060px*/
+        margin: 73.42px 40px 40px 40px;
     }
 
     .contenedor{
@@ -251,7 +251,7 @@ body{
     .respuesta{
         width: 688px;
         height: auto;
-        margin: 40px 40px 40px 0px;
+        margin: 40px 40px 0px 0px;
     }
 
     .respuesta__imagen{

@@ -203,24 +203,30 @@ body{
 
 @media (max-width: 768px){
     
+    body{
+        width: 768px;
+        height: 931px;
+    }
 
     .principal {
         flex-direction: column;
         width: 688px;
+        height: 1060px;
+        margin: 73.42px 0px 0px 40px;
     }
 
     .contenedor{
         width: auto;
-        height: auto;
+        height: 863.58px;
     }
 
     .contenedor__logo{
-        margin: 73.42px 0px 116px -40px;
+        margin: 0px 0px 116px -40px;
     }
 
     .contenedor__texto{
         width: 688px;
-        margin: 0px 40px 548px 0px; 
+        margin: 0px 40px 282px 0px; 
     }
 
     .contenedor__mensaje{

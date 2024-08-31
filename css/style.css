@@ -8,7 +8,7 @@
 
 body{
     background-color: #e5e5e5;
-    height: 100vh;
+    height: auto; /*100vh*/
     width: 1440px;
     box-sizing: border-box;
     display: flex;
@@ -16,7 +16,7 @@ body{
 }
 
 .principal{
-    width: auto;
+    width: 1360px;
     height: auto;
     background-color: red;
     margin: 40px 40px 40px 40px;
@@ -31,7 +31,7 @@ body{
     width: 1000px;
     height: 650px;
     border-radius: 32px;
-    ;
+    margin: 0px 40px 00px 0px;
 }
 
 .contenedor__logo{
@@ -42,8 +42,8 @@ body{
     
 .contenedor__texto{
     width: 577px;
-    height: auto;
-    margin: 0px 0px 73px 200px;
+    height: 48px;
+    margin: 0px 0px 233px 200px;
     font-size: 2rem;
     font-family: "Inter", sans-serif;
     color: darkblue;
@@ -226,7 +226,7 @@ body{
 
     .contenedor__texto{
         width: 688px;
-        margin: 0px 40px 283px 0px; 
+        margin: 0px 40px 285px 0px; 
     }
 
     .contenedor__mensaje{
@@ -290,35 +290,47 @@ body{
 /*Responsive para celular width max (375)*/
 
 @media (max-width: 375px){
+
+    body{
+        width: 375px;
+        height: auto;
+    }
     
     .principal {
+        width: 343px;
+        height: auto;
         flex-direction: column;
+        margin: 23.97px 16px 40px 16px;
     }
 
     .contenedor{
         width: 343px;
-        height: auto;
-        margin: 16px 16px 0px 16px;
+        height: 619px;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
     }
 
     .contenedor__logo{
-        margin: 23.97px 0px 80px -40px;
+        margin: 0px 0px 80px -40px;
     }
 
     .contenedor__texto{
         width: 343px;
-        margin: 0px 0px 251px 0px;
+        height: 48px;
+        margin: 0px 0px 144px 0px;
         font-size: 1rem;
     }
 
     .contenedor__mensaje{
+        padding: 0px;
         margin: 0px 0px 16px 0px;
     }
 
     .contenedor__boton{
         width: 343px;
-        margin: 0px 16px 24px 0px;
+        margin: 0px 0px 0px 0px;
         display: block;
+        padding: 0px;
     }
 
     .contenedor__boton__encriptar{
@@ -333,7 +345,8 @@ body{
     .respuesta{
         width: 343px;
         height: auto;
-        margin: 100px 16px 40px 16px;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
     }
 
     .respuesta__imagen{

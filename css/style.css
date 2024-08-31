@@ -205,14 +205,14 @@ body{
     
     body{
         width: 768px;
-        height: 931px;
+        height: 1174px;
     }
 
     .principal {
         flex-direction: column;
         width: 688px;
         height: 1060px;
-        margin: 73.42px 0px 0px 40px;
+        margin: 73.42px 40px 0px 40px;
     }
 
     .contenedor{
@@ -226,7 +226,7 @@ body{
 
     .contenedor__texto{
         width: 688px;
-        margin: 0px 40px 282px 0px; 
+        margin: 0px 40px 283px 0px; 
     }
 
     .contenedor__mensaje{
@@ -236,7 +236,7 @@ body{
 
     .contenedor__boton{
         width: 688px;
-        margin: 0px 40px 24px 0px;
+        margin: 0px 0px 24px 0px;
         padding: 0px;
     }
 
@@ -251,7 +251,7 @@ body{
     .respuesta{
         width: 688px;
         height: auto;
-        margin: 14px 40px 40px 0px;
+        margin: 40px 40px 40px 0px;
     }
 
     .respuesta__imagen{

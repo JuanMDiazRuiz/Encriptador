@@ -16,7 +16,7 @@ body{
 }
 
 .principal{
-    width: 100%; /*1360px*/
+    width: auto; /*1360px*/
     height: auto;
     background-color: red;
     margin: 40px 40px 40px 40px;
@@ -28,10 +28,10 @@ body{
 /** article **/
 .contenedor{
     background-color: yellow;
-    width: 70%; /*920px*/
+    width: 920px; /*920px*/
     height: 650px;
     border-radius: 32px;
-    margin: 0px 40px 00px 0px;
+    padding: 0px 40px 0px 0px;
 }
 
 .contenedor__logo{
@@ -71,9 +71,9 @@ body{
 }
 
 .contenedor__boton{
-    width: 100%; /*680px*/
+    width: 680px; /*680px*/
     height: 67px;
-    margin: 0px 0px 32px 65px;
+    padding: 0px 0px 32px 200px;
     display: grid;
     grid-auto-flow: column;
     justify-content: center;
@@ -83,7 +83,7 @@ body{
 .contenedor__boton__encriptar{
     background-color: darkblue;
     margin: 0px 0px 0px 0px;
-    width: 328px;
+    width: 328px; /*328*/
     height: 67px;
     border-radius: 24px;
     font-size: 1rem;
@@ -99,7 +99,7 @@ body{
 .contenedor__boton__desencriptar{
     background-color: #e5e5e5;
     margin: 0px 0px 0px 0px;
-    width: 328px;
+    width: 328px; /*328px*/
     height: 67px;
     border-radius: 24px;
     font-size: 1rem;
@@ -116,7 +116,7 @@ body{
 /** asaide **/
 .respuesta{
     background-color: white;
-    width: 30%; /*400px*/
+    width: 400px; /*400px*/
     height: 650px;
     border-radius: 32px;
 }
